@@ -1,0 +1,21 @@
+{
+  "name": "http-assignment-ii",
+  "version": "1.0.0",
+  "description": "HTTP assignment part 2",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "author": "Sammi Kendikian",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.28.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
